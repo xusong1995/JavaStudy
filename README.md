@@ -1,2 +1,2 @@
 # JavaStudy
-This is a java study test demo
+马士兵 java SE 教学视频学习练习代码
