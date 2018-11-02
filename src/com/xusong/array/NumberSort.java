@@ -24,7 +24,7 @@ public class NumberSort {
         }
     }
 
-    //优化排序算法
+    //优化排序算法,折中排序法
     private static void selectionSort(int a[]) {
         int k;
         int temp;
