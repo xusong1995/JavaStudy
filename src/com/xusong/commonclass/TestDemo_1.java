@@ -3,7 +3,7 @@ package com.xusong.commonclass;
 /**
  * @Program: JavaStudy
  * @Author: XuSong
- * @Description:
+ * @Description: String类练习1
  * @Data: Created on 2018-11-02 18:16
  */
 public class TestDemo_1 {
