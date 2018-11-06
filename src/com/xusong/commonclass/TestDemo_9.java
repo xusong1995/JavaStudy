@@ -35,7 +35,6 @@ public class TestDemo_9 {
                 date[i][j] = Double.parseDouble(second[j]);
             }
         }
-        //输出
         for (int i=0; i<date.length;i++) {
             for (int j = 0; j<date[i].length; j++) {
                 System.out.print(date[i][j] + " ");
