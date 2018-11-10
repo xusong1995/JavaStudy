@@ -17,16 +17,16 @@ public class TestTransform_2 {
         String s = null;
         try {
             s = bufferedReader.readLine();
-            while (s!=null) {
+            while (s != null) {
                 if (s.equalsIgnoreCase("exit"))
                     break;
                 System.out.println(s.toUpperCase());
                 s = bufferedReader.readLine();
             }
             bufferedReader.close();
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        }
     }
+}
 
