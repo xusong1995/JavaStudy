@@ -34,15 +34,15 @@ class Timer {
     public synchronized void add(String name) {
         //锁定当前线程对象
 //        synchronized (this) {
-            num++;
-            try {
-                //睡眠1ms只是为了放大效果，即使不sleep，cpu也可能打断当前线程执行
-                Thread.sleep(1);
-            } catch (InterruptedException e) {
+        num++;
+        try {
+            //睡眠1ms只是为了放大效果，即使不sleep，cpu也可能打断当前线程执行
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
 
-            } finally {
-                System.out.println(name + ",你是第" + num + "个使用timer的线程");
-            }
+        } finally {
+            System.out.println(name + ",你是第" + num + "个使用timer的线程");
+        }
 //        }
     }
 }

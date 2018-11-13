@@ -9,20 +9,20 @@ package com.xusong.thread;
 public class InterviewQuestion implements Runnable {
     int b = 100;
 
-    public synchronized void m1() throws Exception{
+    public synchronized void m1() throws Exception {
         b = 1000;
         Thread.sleep(5000);
         System.out.println("b = " + b);
     }
 
-    public void m2() {
+    public synchronized void m2() {
         System.out.println(b);
     }
 
     public void run() {
         try {
             m1();
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
@@ -31,7 +31,6 @@ public class InterviewQuestion implements Runnable {
         InterviewQuestion iq = new InterviewQuestion();
         Thread thread = new Thread(iq);
         thread.start();
-
         Thread.sleep(1000);
         iq.m2();
     }
