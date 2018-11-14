@@ -24,7 +24,7 @@ public class TestDemo_2 {
         System.out.println(s1.equalsIgnoreCase(s2));
 
         String s = "我是程序员，我在学java";
-        String sr = s.replace('我','你');
+        String sr = s.replace('我', '你');
         System.out.println(sr);
     }
 }

@@ -1,5 +1,7 @@
 package com.xusong.commonclass;
+
 import java.io.*;
+
 /**
  * @Program: JavaStudy
  * @Author: XuSong
@@ -10,10 +12,10 @@ public class TestFile_2 {
     public static void main(String[] args) {
         File file = new File("d:/A");
         System.out.println(file.getName());
-        tree(file,1);
+        tree(file, 1);
     }
 
-    private static void tree(File file,int level) {
+    private static void tree(File file, int level) {
         String preStr = "";
         for (int i = 0; i < level; i++) {
             preStr += "    ";
@@ -22,7 +24,7 @@ public class TestFile_2 {
         for (int i = 0; i < childs.length; i++) {
             System.out.println(preStr + childs[i].getName());
             if (childs[i].isDirectory()) {
-                tree(childs[i],level + 1);
+                tree(childs[i], level + 1);
             }
         }
     }

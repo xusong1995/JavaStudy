@@ -14,16 +14,16 @@ public class TestMath_1 {
         double b = Math.random();
         System.out.println(b);
         //平方根
-        System.out.println(Math.sqrt(a*a+b*b));
+        System.out.println(Math.sqrt(a * a + b * b));
         //pow(doble a,double b)    a的b次幂
-        System.out.println(Math.pow(a,8));
+        System.out.println(Math.pow(a, 8));
         //long round(double a)   double型的数据转成long型
         System.out.println(Math.round(b));
         //log  自然对数
         //pow(doble a,double b)    a的b次幂
-        System.out.println(Math.log(Math.pow(Math.E,15)));
+        System.out.println(Math.log(Math.pow(Math.E, 15)));
         double d = 60.0;
-        double r = Math.PI/4;
+        double r = Math.PI / 4;
         //角度转弧度
         System.out.println(Math.toRadians(d));
         //弧度转角度

@@ -21,7 +21,7 @@ public class TestDemo_6 {
 
         while ((index = s1.indexOf(s2)) != -1) {
             s1 = s1.substring(index + s2.length());
-            count ++;
+            count++;
         }
         System.out.println(count);
     }

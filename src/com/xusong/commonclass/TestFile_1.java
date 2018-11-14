@@ -1,4 +1,5 @@
 package com.xusong.commonclass;
+
 import java.io.*;
 
 /**

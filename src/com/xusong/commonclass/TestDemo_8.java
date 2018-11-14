@@ -36,7 +36,7 @@ public class TestDemo_8 {
          * 返回此 Double对象的 double值。
          */
         double r = Double.valueOf("2.0").doubleValue();
-        double s = pi*r*r;
+        double s = pi * r * r;
         System.out.println(s);
         try {
             /**

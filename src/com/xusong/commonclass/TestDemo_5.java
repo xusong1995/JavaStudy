@@ -16,9 +16,9 @@ public class TestDemo_5 {
             char s2 = s1.charAt(i);
             if (s2 >= 'a' && s2 <= 'z') {
                 lCount++;
-            }else if (s2 >= 'A' && s2 <= 'Z') {
+            } else if (s2 >= 'A' && s2 <= 'Z') {
                 uCount++;
-            }else {
+            } else {
                 oCount++;
             }
         }

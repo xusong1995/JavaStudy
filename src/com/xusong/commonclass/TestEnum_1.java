@@ -7,7 +7,7 @@ package com.xusong.commonclass;
  * @Data: Created on 2018-11-06 10:51
  */
 public class TestEnum_1 {
-    public enum MyColor {red,green,blue};
+    public enum MyColor {red, green, blue};
 
     public static void main(String[] args) {
         MyColor m = MyColor.red;
