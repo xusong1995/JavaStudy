@@ -1,7 +1,6 @@
-package GUI;
+package com.xusong.GUI;
 
 import java.awt.*;
-import java.io.FileInputStream;
 
 /**
  * @Program: JavaStudy

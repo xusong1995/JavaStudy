@@ -1,4 +1,4 @@
-package GUI;
+package com.xusong.GUI;
 
 import java.awt.*;
 
